@@ -1,0 +1,30 @@
+/*https://coolors.co/palette/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226
+
+COLORS:
+
+*/
+[data-theme='hockey'] {
+ --color-primary: #AE2012;
+--color-darkred: #9B2226;
+--color-darkorange: #BB3E03;
+--color-orange: #CA6702;
+--color-yellow: #EE9B00;
+--color-lightblue: #EE9B00;
+--color-darkblue: #005F73;
+--color-black: #001219;
+}
+
+body {
+    background: var(--color-);
+}
+
+/*********HERO*********/
+/*********HERO*********/
+/*********HERO*********/
+.hero-mesh {
+    background: url("https://imageio.forbes.com/specials-images/imageserve/651f0f723d2a03dce1378918/Nathan-MacKinnon--Connor-McDavid-and-Alex-Ovechkin-/0x0.jpg?format=jpg&height=1080&width=1920");
+    background-position: center center;
+    background-size: cover;
+}
+
+

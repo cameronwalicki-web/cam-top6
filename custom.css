@@ -21,10 +21,30 @@ body {
 /*********HERO*********/
 /*********HERO*********/
 /*********HERO*********/
+
+.hero-title {
+    color: var(--color-darkblue);
+    text-shadow: 5px 5px 5px var(--color-black);
+}
+.hero-support {
+    color: white;
+    font font/wieght: 800;
+    text-shadow: 1px 1px 3px black;
+}
+
 .hero-mesh {
     background: url("https://imageio.forbes.com/specials-images/imageserve/651f0f723d2a03dce1378918/Nathan-MacKinnon--Connor-McDavid-and-Alex-Ovechkin-/0x0.jpg?format=jpg&height=1080&width=1920");
     background-position: center center;
     background-size: cover;
 }
 
-
+/*********Navbar*********/
+/*********Navbar********/
+/*********Navbar*********/
+.site-nav-brand {
+    color: var (--color-primary);
+}
+.is-nav-ready .site-nav.is-stuck {
+    background: color-mix(in oklab, var(--color-orange-100) 90%, transparent);
+    backdrop-filter: blur(20px);
+}

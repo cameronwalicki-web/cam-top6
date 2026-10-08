@@ -4,18 +4,18 @@ COLORS:
 
 */
 [data-theme='hockey'] {
- --color-primary: #AE2012;
---color-darkred: #9B2226;
+ --color-primary: #72a1d8;
+--color-darkred: #323960;
 --color-darkorange: #BB3E03;
 --color-orange: #CA6702;
 --color-yellow: #EE9B00;
 --color-lightblue: #EE9B00;
 --color-darkblue: #005F73;
---color-black: #001219;
+--color-black: #2e1504;
 }
 
 body {
-    background: var(--color-);
+    background: var(--color-darkred);
 }
 
 /*********HERO*********/
@@ -23,7 +23,7 @@ body {
 /*********HERO*********/
 
 .hero-title {
-    color: var(--color-darkblue);
+    color: var(--color-darkorange);
     text-shadow: 5px 5px 5px var(--color-black);
 }
 .hero-support {

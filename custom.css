@@ -17,9 +17,15 @@ COLORS:
 body {
     background: var(--color-darkred);
 }
-h1, h2, h3, h4, h5, h6 {font-family: "Black Ops One", system-ui;
+
+/* If you want Black Ops One */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Black Ops One", system-ui;
 }
-h1, h2, h3, h4, h5, h6 { font-family: "Barlow Condensed", sans-serif;
+
+/* OR if you want Barlow Condensed */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 /*********HERO*********/
@@ -32,7 +38,7 @@ h1, h2, h3, h4, h5, h6 { font-family: "Barlow Condensed", sans-serif;
 }
 .hero-support {
     color: white;
-    font font/wieght: 800;
+    font-weight: 800;
     text-shadow: 1px 1px 3px black;
 }
 
@@ -51,4 +57,26 @@ h1, h2, h3, h4, h5, h6 { font-family: "Barlow Condensed", sans-serif;
 .is-nav-ready .site-nav.is-stuck {
     background: color-mix(in oklab, var(--color-orange-100) 90%, transparent);
     backdrop-filter: blur(20px);
+}
+ /* Custom glowing cursor dot */
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-color: #00ffcc; /* Bright neon cyan */
+  border-radius: 50%;
+  pointer-events: none; /* Ensures you can still click things underneath */
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 12px #00ffcc;
+  z-index: 9999;
+  transition: transform 0.1s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Cool hover effect when your mouse goes over links or buttons */
+.cursor-dot.hovered {
+  transform: translate(-50%, -50%) scale(2);
+  background-color: #ff0055; /* Turns hot pink on hover */
+  box-shadow: 0 0 15px #ff0055;
 }

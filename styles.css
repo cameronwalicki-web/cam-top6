@@ -597,4 +597,27 @@ html {
   .is-reveal-ready .entry-one.is-in .entry-card::after {
     display: none;
   }
+
+
+  /* Custom glowing cursor dot */
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-color: #00ffcc; /* Bright neon cyan */
+  border-radius: 50%;
+  pointer-events: none; /* Ensures you can still click things underneath */
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 12px #00ffcc;
+  z-index: 9999;
+  transition: transform 0.1s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Cool hover effect when your mouse goes over links or buttons */
+.cursor-dot.hovered {
+  transform: translate(-50%, -50%) scale(2);
+  background-color: #ff0055; /* Turns hot pink on hover */
+  box-shadow: 0 0 15px #ff0055;
 }
